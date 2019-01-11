@@ -1,0 +1,6 @@
+framework module TPQQSharePlus {
+  umbrella header "TPQQSharePlus.h"
+
+  export *
+  module * { export * }
+}
