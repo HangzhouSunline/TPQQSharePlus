@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TPQQSharePlus'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '基于QQ iOS SDK封装的分享插件'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.vendored_frameworks = 'TPQQSharePlus.framework'
-  s.vendored_frameworks = 'TencentOpenAPI.framework'
+  s.vendored_frameworks = 'TPQQSharePlus.framework' ,'TencentOpenAPI.framework'
 
   s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   s.libraries           = 'iconv', 'sqlite3', 'stdc++', 'z'
